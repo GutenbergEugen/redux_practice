@@ -1,0 +1,27 @@
+.add_posts_form input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.add_posts_form input:focus {
+  outline: none;
+  border-color: green;
+}
+
+.add_posts_form button {
+  padding: 10px;
+  margin: 5px;
+  width: 150px;
+  border: 3px solid green;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.add_posts_form button:hover {
+  background-color: green;
+  color: white;
+}
